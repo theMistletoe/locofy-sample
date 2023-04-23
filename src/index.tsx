@@ -11,6 +11,9 @@ import {
 } from "@mui/material";
 
 import "./global.css";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 const muiTheme = createTheme();
 
